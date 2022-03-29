@@ -44,7 +44,7 @@ const App = () => {
 
             <motion.div 
               className = 'circle' 
-              animate ={visible ? {scale: [0, 1300], opacity : [1, 0]} : {scale: [1,1]}} 
+              animate ={visible ? {scale: [0, 1300], opacity : [1, 1, 0]} : {scale: [1,1]}} 
               transition = {{duration: 1}}
               initial = 'hidden'
               // style = { visible && {display: 'none'}}
